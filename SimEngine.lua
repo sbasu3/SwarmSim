@@ -39,15 +39,15 @@ require "config"
 bot = {};
 bot[1] = {};
 push_env_table(bot[1]);
-require"bot1"
+require"Bot1"
 pop_env_table();
 bot[2] = {};
 push_env_table(bot[2]);
-require"bot2"
+require"Bot2"
 pop_env_table();
 bot[3] = {};
-push_env_table(bot[2]);
-require"bot2"
+push_env_table(bot[3]);
+require"Bot3"
 pop_env_table();
 
 
